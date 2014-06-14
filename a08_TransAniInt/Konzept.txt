@@ -1,0 +1,9 @@
+Auf der Leinwand bewegen sich mehrere Kreise, sie haben eine zufällige Größe.
+Durch Mauseingabe "klicken und ziehen" können Rechtecke aufgezogen werden mit denen die Kreise kollidieren. Die Rechtecke habe Hitpoints.
+Bei Kollision verliert das Rechteck Hitpoints basierend auf der Größe des Kreises, bei 0 Hitpoints oder weniger verschwindet es.
+Je mehr Hitpoints das Rechteck von seinen Maximal-Hitpoints verliert, desto weniger Farbe hat es.
+Bei Kollision wackeln die Rechtecke und verschieben sich.
+
+Hauptvariablen:
+Kreise - 2 Dimensionaler Array (X, Y, Radius, GeschwindigkeitX, GeschwindigkeitY)
+Rechtecke - 2 Dimensionaler Array (X, Y, width, height, aktuelle Hitpoints, WackelnX, WackelnY, WackelnXCnt, WackelnYCnt, active, dragging)
